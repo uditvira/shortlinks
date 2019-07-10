@@ -5,9 +5,8 @@ For generating our `link.hypha.coop` shortlinks.
 Configuration for these shortlinks are stored in
 [`shortlinks.csv`](/shortlinks.csv).
 
-This repo contains only configuration and documentation.
-
-All the execution happens in the `update_shortlinks` task of the
+This repo contains only configuration and documentation. All the
+updating happens through the `update_shortlinks` task of the
 [`hyphacoop/worker-coop-scripts` repo][scripts]. Please see that repo
 for details.
 
