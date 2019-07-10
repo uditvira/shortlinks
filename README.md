@@ -15,9 +15,9 @@ for details.
 
 - **shortlink.** The shortened url. Example: https://link.hypha.coop/my-shortlink
 - **base URL.** The base for the shortened urls. Example: `https://link.hypha.coop`
-- **keyword.** The string (usually human-readable) that makes up the
-  path of the shortlink, and is appended to the base URL. a.k.a.
-**slashtag**, a term used by the underlying shortlink services.
+- **keyword.** (a.k.a. **slashtag**) The human-readable string that
+  makes up the path of the shortlink, and is appended to the base URL.
+Example: `my-shortlink`
 
 ## :muscle: Contributing
 
