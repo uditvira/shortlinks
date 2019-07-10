@@ -23,6 +23,10 @@ for details.
 
 tl;dr - simply edit [`shortlinks.csv`](/shortlinks.csv)!
 
+- **Creating** a new shortlink? Add a new line.
+- **Changing** an existing shortlink? Change the `resource_url`.
+- **Removing** an existing shortlink? Clear the `resource_url` field, leaving the `keyword` field as-is.
+
 To keep things lightweight, **make changes directly on `master`
 branch**, without pull request. (Feel free to use a pull request if
 you'd like a gut-check and you're not in a rush.)
@@ -33,13 +37,8 @@ https://example.com/asfjaflnadsesljarmdkasdjasd. Just add a new line to
 `shortlinks.csv` with `my-shortlink` as the `keyword` and your complex
 URL as the `destination_url`.
 
-Without explicit action, shortlinks are **updated nightly** as part of the
-[`update_shortlinks`
+Shortlinks are **updated nightly** as part of the [`update_shortlinks`
 task](https://github.com/hyphacoop/worker-coop-scripts#update_shortlinks)
 in the [`hyphacoop/worker-coop-scripts` repo][scripts].
 
    [scripts]: https://github.com/hyphacoop/worker-coop-scripts
-
-- **Creating** a new shortlink? Add a new line.
-- **Changing** an existing shortlink? Change the `resource_url`.
-- **Removing** an existing shortlink? Clear the `resource_url` field, leaving the `keyword` field as-is.
