@@ -38,6 +38,9 @@ URL as the `destination_url`.
 
 Shortlinks are **updated nightly** as part of the [`update_shortlinks`
 task](https://github.com/hyphacoop/worker-coop-scripts#update_shortlinks)
-in the [`hyphacoop/worker-coop-scripts` repo][scripts].
+in the [`hyphacoop/worker-coop-scripts` repo][scripts]. A [manual
+update][manual-update] can also be run on-demand, which is helpful
+for testing.
 
    [scripts]: https://github.com/hyphacoop/worker-coop-scripts
+   [manual-update]: https://github.com/hyphacoop/worker-coop-scripts/blob/master/README.md#manually-forcing-a-script-run
