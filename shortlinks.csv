@@ -45,3 +45,4 @@ availability,https://calendar.google.com/calendar/embed?src=e2gv1tt0kkqq59c8jh7t
 contacts,https://docs.google.com/spreadsheets/d/1LyElXvLj7ASclSPQqcgOnuEWqBWBStilEfOhIosZzhA/edit#gid=1538436479
 standup-template,https://raw.githubusercontent.com/hyphacoop/organizing/master/-standup-template.md
 tasks,https://github.com/orgs/hyphacoop/projects/2
+new-task,https://github.com/hyphacoop/organizing/issues/new?template=task_template.md
