@@ -20,8 +20,10 @@ cron,https://github.com/hyphacoop/worker-coop-scripts
 scheduled-tasks,https://github.com/hyphacoop/worker-coop-scripts
 inventory,https://hackmd.io/@patcon/HyH0W9bAE
 crm,https://app.hubspot.com/contacts/6514161/contacts/list/view/all/?
-leads,https://app.hubspot.com/contacts/6514161/deals
+leads,https://app.hubspot.com/contacts/6514161/deals/board/view/all/?
 opportunities,https://link.hypha.coop/leads
+prospects,https://link.hypha.coop/leads
+deals,https://link.hypha.coop/leads
 conversions,https://docs.google.com/spreadsheets/d/1LyElXvLj7ASclSPQqcgOnuEWqBWBStilEfOhIosZzhA/edit#gid=30829554
 slogans,https://hackmd.io/s/HkRaA_woE
 chants,https://hackmd.io/s/Bk-BO6viN
