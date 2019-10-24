@@ -19,6 +19,7 @@ linkedin,https://www.linkedin.com/company/hyphacoop/
 cron,https://github.com/hyphacoop/worker-coop-scripts
 scheduled-tasks,https://github.com/hyphacoop/worker-coop-scripts
 inventory,https://hackmd.io/@patcon/HyH0W9bAE
+crm,https://app.hubspot.com/contacts/6514161/contacts/list/view/all/?
 leads,https://app.hubspot.com/contacts/6514161/deals/board/view/all/?
 opportunities,https://link.hypha.coop/leads
 prospects,https://link.hypha.coop/leads
@@ -49,3 +50,4 @@ standup-template,https://raw.githubusercontent.com/hyphacoop/organizing/master/-
 tasks,https://github.com/orgs/hyphacoop/projects/2
 new-task,https://github.com/hyphacoop/organizing/issues/new?template=task_template.md
 passwords,https://pass.hypha.coop/
+teams,https://github.com/orgs/hyphacoop/teams
