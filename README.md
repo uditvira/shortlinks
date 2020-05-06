@@ -1,14 +1,11 @@
 # Hypha Co-op: Shortlinks
 
-For generating our `link.hypha.coop` shortlinks.
+Source for our `link.hypha.coop` shortlinks
 
 Configuration for these shortlinks are stored in
 [`shortlinks.csv`](/shortlinks.csv).
 
-This repo contains only configuration and documentation. All the
-updating happens through the `update_shortlinks` task of the
-[`hyphacoop/worker-coop-scripts` repo][scripts]. Please see that repo
-for details.
+This repo contains a CSV file used by the [hyphacoop/shortlinks-site] script and this documentation.
 
 ## Terminology
 
@@ -36,11 +33,7 @@ https://example.com/asfjaflnadsesljarmdkasdjasd. Just add a new line to
 `shortlinks.csv` with `my-shortlink` as the `keyword` and your complex
 URL as the `destination_url`.
 
-Shortlinks are **updated nightly** as part of the [`update_shortlinks`
-task](https://github.com/hyphacoop/worker-coop-scripts#update_shortlinks)
-in the [`hyphacoop/worker-coop-scripts` repo][scripts]. A [manual
-update][manual-update] can also be run on-demand, which is helpful
-for testing.
+Shortlinks are active as soon as **commited to maters**. Github may cache results of a short priod of time.
 
    [scripts]: https://github.com/hyphacoop/worker-coop-scripts
    [manual-update]: https://github.com/hyphacoop/worker-coop-scripts/blob/master/README.md#manually-forcing-a-script-run
