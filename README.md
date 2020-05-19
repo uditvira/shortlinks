@@ -33,7 +33,7 @@ https://example.com/asfjaflnadsesljarmdkasdjasd. Just add a new line to
 `shortlinks.csv` with `my-shortlink` as the `keyword` and your complex
 URL as the `destination_url`.
 
-Shortlinks are active as soon as **commited to maters**. Github may cache results of a short priod of time.
+Shortlinks are active as soon as **committed to master**. GitHub may cache results of a short period of time.
 
    [scripts]: https://github.com/hyphacoop/worker-coop-scripts
    [manual-update]: https://github.com/hyphacoop/worker-coop-scripts/blob/master/README.md#manually-forcing-a-script-run
